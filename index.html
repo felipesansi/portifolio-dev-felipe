@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DEV Felipe 2024</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+    
+</head>
+<body>
+    <header>
+        <nav class="nav-bar">
+            <div class="logo">
+                <h1>Dev Felipe</h1>
+            </div>
+            <div class="nav-lista">
+                <ul>
+                    <li class="nav-item"><a href="#home1" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="#sobre-mim" class="nav-link">Sobre mim</a></li>
+                    <li class="nav-item"><a href="#projeto" class="nav-link">Projeto</a></li>
+                    <li class="nav-item"><a href="#certificado" class="nav-link">Certificado</a></li>
+                </ul>
+
+            </div>
+            <div class="icone-menu-mobile">
+                <button onclick="menuShow()"><img class="icone"  src="./Imagens/Icone-menu.svg" alt="imagem do icone menu"></button>
+            </div>
+        </nav>
+        <div class="mobile-menu">
+            <ul>
+                <li class="nav-item"><a href="#home1" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="#sobre-mim" class="nav-link">Sobre mim</a></li>
+                <li class="nav-item"><a href="#projeto" class="nav-link">Projetos</a></li>
+                <li class="nav-item"><a href="#certificado" class="nav-link">Certificados</a></li>
+            </ul>
+
+        </div>
+      
+    </header>
+    <main>
+        <section id="home1">
+            <picture>
+                <img src="./Imagens/foto_perfil_home1.jpeg" alt="imagem do Desenvolvedor">
+            </picture>
+            <div class="texto-1">
+                <h2 class="texto-capa">SOU</h2>
+                <P id="nome">Felipe</P>
+                <h2 class="texto-capa">Desenvolvedor</h2>
+              
+                <a id="btn-mais" href="#sobre-mim">Conheça Mais</a>
+            
+                <h3 id="linguagem">Desenvolvedor C#</h3>
+                <nav class="redes">
+                   <a href="https://github.com/felipesansi" target="_blank" class="contato" class="link" rel="noopener noreferrer">
+                    <i class="fa-brands fa-github"> </i>
+                   </a>
+
+                   <a href="https://www.linkedin.com/in/felipesansi" target="_blank"  class="contato" class="link" rel="noopener noreferrer">
+                    <i class="fa-brands fa-linkedin"></i>
+                   </a>
+                </nav>
+            </div>
+        </section>
+
+        <section id="sobre-mim">
+        <h2 class="Titulo-sessao">Sobre Mim</h2>
+         <div class="conterner">
+     
+                     
+             <picture>
+                <img src="./Imagens/foto_perfil_sobre.jpeg" alt="segunda imagem do Desenvolvedor">
+             </picture>
+
+             <a id="btn-cv" href="./PDF/Currículo - Felipe F. dos S. Silva1559599886667078020.pdf "download ="" type="application/pdf" >Baixar Currículo</a>
+             <h3>Olá!</h3>
+             
+                     <p id="texto-sobre"> Me chamo Felipe <span id="texto-destaque">  Freitas dos S. Siva</span><br>
+                Formado em Análise e desenvolvimento de <br>
+                Sistemas com base na linguagem C# .NET <br>
+                Estudos também em Mysql. Sabendo <br>
+                também de HTML, CSS e Javascript e <strong style="color: #38b1c7;">muito mais </strong> 
+                <br>
+                Sou um jovem muito curioso, focado e <br>
+                disposto a aprender.
+              
+                     </p>
+
+                    
+                     <h4 class="assinatura">Felipe F.</h4>
+
+                     
+         </div>
+      
+                    
+        </section>
+
+        <section id="projeto">
+            <h2 class="Titulo-sessao">Projetos</h2>
+           <div class="conterner">
+               
+                <div class="cards-projeto">
+                  <div class="card-jogo">
+                    <picture>
+                        <img src="./Imagens/cobra.png" alt="imagem ilútrativa de uma cobra">
+                        <h2 class="Titulo-projeto">Jogo da Cobra</h2>
+                        <p>Este jogo foi desenvolvido utilizado HTML, CSS e Javascript</p>
+                        <a class="link-usuario" href="https://felipesansi.github.io/Jogo_cobra/" target="_blank" rel="noopener noreferrer">Jogar</a>
+                    </picture>
+                  </div>
+                  <div class="card-portifolio1">
+                    <picture>
+                        <img src="./Imagens/portifólio.png" alt="imagem ilútrativa de um documento">
+                        <h2 class="Titulo-projeto">Portifólio 1</h2>
+                        <p>Este Portifólio foi desenvolvido utilizado HTML, CSS e Javascript</p>
+                        <a class="link-usuario" href="https://felipesansi.github.io/Site-Portifolio/" target="_blank" rel="noopener noreferrer">Visitar</a>
+                    </picture>
+                  </div>
+                 
+                  <div class="card-cronometro">
+                    <picture>
+                        <img src="./Imagens/crônometro.png" alt="imagem ilútrativa de um Cronometro">
+                        <h2 class="Titulo-projeto">Crônometro</h2>
+                        <p>Este Crônometro Interativo : HTML, CSS e Javascript em ação</p>
+                        <a class="link-usuario" href="https://felipesansi.github.io/Cronometro/" target="_blank" rel="noopener noreferrer">Visitar</a>
+                    </picture>
+                  </div>
+                  <div class="card-cep">
+                    <picture>
+                        <img src="./Imagens/pesquisa.png" alt="imagem ilútrativa de um icone de pesquisa">
+                        <h2 class="Titulo-projeto">Buscador de CEP</h2>
+                        <p>Este Buscador de CEP foi desenvolvido utilizado API via CEP</p>
+                        <a class="link-usuario" href="https://felipesansi.github.io/BuscadorCEP/" target="_blank" rel="noopener noreferrer">visitar</a>
+                    </picture>
+                  </div>
+                  <div class="card-senha">
+                    <picture>
+                        <img src="./Imagens/gerarsenha.png" alt="imagem ilútrativa de uma senha">
+                        <h2 class="Titulo-projeto">Gerador de senha</h2>
+                        <p>Um gerador de senhas aleatórias que cria uma senha com o comprimento especificado pelo usuário.</p>
+                        <a class="link-usuario" href="https://felipesansi.github.io/GeradorSenha/" target="_blank" rel="noopener noreferrer">visitar</a>
+                    </picture>
+                  </div>
+                  <div class="card-facilit">
+                    <picture>
+                        <img src="Imagens/facilt.png" alt="imagem ilútrativa de sistema Facilit">
+                        <h2 class="Titulo-projeto">Facilit</h2>
+                        <p>Projeto de conclusão de curso 2024 - Centro universitario Unifaat.</p>
+                      
+                        <a class="link-usuario" href="https://github.com/felipesansi/Facilit.git" target="_blank" rel="noopener noreferrer">Ver repostório</a>
+                    </picture>
+                 
+                </div>
+                <h4 class="assinatura">Felipe F.</h4>
+           </div>
+          
+                
+              
+          
+        </section>
+         <section id="certificado">
+         <h2 class="Titulo-sessao">Certificados</h2>
+         <div class="conterner">
+
+            <div class="cards-certificado">
+                <div id="card-git">
+                    <picture>
+                        <img src="./Imagens/introdução ao git e github.jpeg"
+                        alt="imagem de certificado">
+                        <h2 class="Titulo-certificado">introdução ao Git e Github</h2>
+                        <a href="https://www.dio.me/certificate/7E69AFB3/share" target="_blank" rel="noopener noreferrer"><button class="btns-certificado">Ver Certificado</button></a>
+                    </picture>
+                
+                </div>
+                    <div id="card-equipes">
+                    <picture>
+                        <img src="./Imagens/equipes ágeis.jpeg"
+                         alt="imagem de certificado">
+                         <h2 class="Titulo-certificado">Trabalhando em equipes ágeis</h2>
+                         <a href="https://www.dio.me/certificate/72126A6C/share" target="_blank" rel="noopener noreferrer"><button class="btns-certificado">Ver Certificado</button></a>
+                    </picture>
+                    
+    
+                </div>
+                <div id="card-linux">
+                    <picture>
+                        <img src="./Imagens/linux.jpeg"
+                         alt="imagem de certificado">
+                         <h2 class="Titulo-certificado">introdução ao Sistema operacional Linux</h2>
+                         <a href="https://www.dio.me/certificate/72126A6C/share" target="_blank" rel="noopener noreferrer"><button class="btns-certificado">Ver Certificado</button></a>
+                    </picture>
+               
+                </div>
+                <div id="card-pensamento">
+                    <picture>
+                        <img src="./Imagens/Pensamento computacional.jpeg" alt="imagem de certificado">
+                        <h2 class="Titulo-certificado">introdução á programação </h2>
+                        <a href="https://www.dio.me/certificate/AA905368" target="_blank" rel="noopener noreferrer"><button class="btns-certificado">Ver Certificado</button></a>
+                    </picture>
+                
+                </div>
+                
+                
+                         </div>
+                         <h2 class="assinatura">Felipe F.</h2>
+            </div>
+        
+            <a id="topo"href="#home1"><button id="btn-topo">Topo</button></a>
+            
+         </section>
+   
+    </main>
+ <footer>
+    <div id="footer-contener">
+        <div id="footer-contatos">
+            <h1>Meu Portifólio</h1>
+            <P>
+                Obrigado pela visita
+            </P>
+            <div id="footer-redes">
+                <a href="https://github.com/felipesansi" target="_blank" class="footer-link"id="github" rel="noopener noreferrer">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/felipesansi" target="_blank" class="footer-link"id="linkdin" rel="noopener noreferrer">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+            </div>
+        </div>
+        <ul class="footer-lista">
+            <li>
+                <h3>Projetos</h3>
+            </li>
+            <li>
+                <a href="#" class="footer-link">jogo da Cobra</a>
+               
+            </li>
+            <li>
+                <a href="#" class="footer-link">Portifólio 1</a>
+               
+            </li>
+            <li>
+                <a href="#" class="footer-link">Crônometro</a>
+               
+            </li>
+            <li>
+                <a href="#" class="footer-link">Buscar CEP</a>
+               
+            </li>
+            <li>
+                <a href="#" class="footer-link">Gerador de senha</a>
+               
+            </li>
+            <li>
+                <a href="#" class="footer-link">Facilit</a>
+               
+            </li>
+        </ul>
+        
+        <ul class="footer-lista">
+            <li>
+                <h3>Referências</h3>
+            </li>
+            <li>
+                <a href="https://icons8.com.br/" target="_blank"class = "footer-link" rel="noopener noreferrer"> Icons8</a>
+               
+               
+            </li>
+            <li>
+                <a href="https://fontawesome.com/icon" target="_blank"class = "footer-link" rel="noopener noreferrer">Font-awesomes icons</a>
+               
+            </li>
+            <li>
+             <a href="https://fonts.google.com/" target="_blank"class = "footer-link" rel="noopener noreferrer">Google-fonts</a>
+               
+            </li>
+        </ul>
+      
+    </div>
+
+    <div id="footer-copy">
+        &#169  2024 Todos os diretos reservados.
+    </div>
+ </footer>
+   <script src="Js/main.js" defer></script>
+</body>
+</html>
