@@ -942,13 +942,14 @@ footer{
     .card-portifolio1,
     .card-cronometro,
     .card-cep,
+    .card-facilit,
     .card-senha{
 
         width: 90%;
         margin-bottom: 20px;
         padding: 20px;
         box-sizing: border-box;
-        
+        height: 100%;
     }
 
     
@@ -965,7 +966,9 @@ footer{
 
     .card-jogo p,
     .card-portifolio1 p,
-    .card-cronometro p {
+    .card-cronometro p,
+    .card-cep, 
+    .card-facilit {
         padding: 20px;
     }
 
