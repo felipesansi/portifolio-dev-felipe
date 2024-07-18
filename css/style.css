@@ -27,7 +27,9 @@ scroll-behavior: smooth;
     padding: 0;
     
 }
-
+body{
+    overflow-x: hidden;
+}
 header
 
 {
@@ -604,15 +606,14 @@ animation-iteration-count: infinite;
 
  }
 
- 
- 
- 
-
- .Titulo-certificado{
+ .Titulo-certificado
+ {
     color: #ffff;
     font-size: 24px;
     padding-bottom: 10px;
  }
+
+
  .btns-certificado
  {
 
@@ -623,13 +624,50 @@ animation-iteration-count: infinite;
  border: none;
 
  }
+.cards-habilidades{
+   display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 50px;
+  justify-content: center;
+  padding: 20px;
+  margin: 0 auto;
+  width: 90%
+}
+ #card-sql,#card-html,
+ #card-css,#card-js
+ ,#card-nodejs,#card-csharp,
+ #card-react,#card-native, #card-api
+ {   
+     
+    background-color:#fa042da1;
+    height: 100px;
+    width: 250px;
+    padding: 20px 35px;
+    border-radius: 30px;
+    text-align: center;
+ 
+ } 
+ #habilidade p{
+    color:  var(--color-text-titulo);
+    padding-top: 15px;
+    text-align: center;
+}
+
+
+ #habilidade .conterner{
+    height: 665px;
+ }
+
+ #habilidade i{
+    font-size: 2.5rem;
+  }
 
  .btns-certificado:hover
  {
     background-color: #c4cbcf;
     color: #000000;
  }
-
+  
   .redes
   {
     display: flex;
@@ -669,6 +707,7 @@ animation-iteration-count: infinite;
     
      padding-top: 20px;
      left: 30px;
+     
      position:absolute
  }
 
@@ -934,6 +973,9 @@ footer{
     }
     
     #projeto .conterner{
+        height: auto;
+    }
+    #habilidade .conterner{
         height: auto;
     }
     
