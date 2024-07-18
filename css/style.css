@@ -950,7 +950,11 @@ footer{
     {
         display: none;
     }
-
+ 
+    #habilidade .assinatura
+    {
+        display: none;
+    }
     #certificado .assinatura{
         display: none;
     }
