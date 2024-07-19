@@ -1,3 +1,5 @@
+AOS.init();
+
 function AbrirMenu() {
   let menuMobile = document.querySelector('.mobile-menu');
   if (menuMobile.classList.contains('abrir')) {

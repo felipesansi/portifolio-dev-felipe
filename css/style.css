@@ -18,8 +18,8 @@ html
 {
 scroll-behavior: smooth;
 }
-*
 
+*
 {
     
     font-family: 'Inter' , sans-serif;
@@ -27,7 +27,8 @@ scroll-behavior: smooth;
     padding: 0;
     
 }
-body{
+body
+{
     overflow-x: hidden;
 }
 header
@@ -54,6 +55,7 @@ header
     padding: 10PX 10px 10px 10PX
     
 }
+
 .logo h1
 
 {
@@ -62,6 +64,7 @@ header
     padding: 10PX 20px 10px 40PX;
     color: var(--color-text-titulo);
 }
+
 .nav-lista
 
 {
@@ -121,11 +124,14 @@ picture img
     color: var(--color-text-titulo);
     font-size: 3em;
 }
-.texto-capa{
+
+.texto-capa
+{
     color: var(--color-text-titulo);
     font-size: 50px;
 }
-.assinatura{
+.assinatura
+{
     font-family: 'mao';
     color: var(--color-text-titulo);
     font-size: 2em;
@@ -228,7 +234,7 @@ animation-iteration-count: infinite;
 #texto-destaque
 
 {
-    color: #0CC0DF;
+    color: var(--color-text-titulo);
     font-weight: bolder;
     font-size: 28px;
 }
@@ -255,7 +261,9 @@ animation-iteration-count: infinite;
     padding-left: 5em;
     animation: fotoanimada 2s ease-in-out infinite ;
 }
-@keyframes fotoanimada{
+
+@keyframes fotoanimada
+{
     0%{
         transform: translateY(0);
     }
@@ -295,14 +303,15 @@ animation-iteration-count: infinite;
    background-color: var(--color-botao);
    color: var(--color-text-normal)
  }
-#projeto img
+
+ #projeto img
 
 {
      height: 200px;
      width: 200px;
 }
 #projeto .conterner{
-    height: 1000px;
+    height:auto;
 }
 .card-jogo
 
@@ -348,7 +357,8 @@ animation-iteration-count: infinite;
 
 
 }
-.card-portifolio1:hover{
+.card-portifolio1:hover
+{
     background-color: rgb(63, 63, 70);
     color: var(--color-text-titulo);
     font-size: 18px;
@@ -359,7 +369,8 @@ animation-iteration-count: infinite;
     
 
 }
-.card-portifolio1 p {
+.card-portifolio1 p 
+{
   padding: 20px;
   font-family: 'Inter';
   font-weight: 300;
@@ -380,7 +391,8 @@ animation-iteration-count: infinite;
 
 
 }
-.card-cronometro:hover{
+.card-cronometro:hover
+{
     background-color: rgb(63, 22, 29);
     color: var(--color-text-titulo);
     font-size: 18px;
@@ -391,16 +403,19 @@ animation-iteration-count: infinite;
     
 
 }
-.card-cronometro p {
+.card-cronometro p 
+{
   padding: 20px;
   font-family: 'Inter';
   font-weight: 300;
  
+} #falar .conterner{
+    height: auto;
 }
 .card-cep
 
 {
-    background-color:#0CC0DF;
+    background-color:var(    --color-text-titulo);
     height: 370px;
     font-size: 13px;
     width: 300px;
@@ -410,9 +425,10 @@ animation-iteration-count: infinite;
 
 
 }
-.card-cep:hover{
+.card-cep:hover
+{
     background-color: rgb(63, 63, 70);
-    color: #0CC0DF;
+    color: var(    --color-text-titulo);
     font-size: 18px;
     width: 320px;
     transition-property: all;
@@ -421,7 +437,8 @@ animation-iteration-count: infinite;
     
 
 }
-.card-cep p {
+.card-cep p 
+{
   padding: 20px;
   font-family: 'Inter';
   font-weight: 300;
@@ -432,7 +449,7 @@ animation-iteration-count: infinite;
 .card-senha
 
 {
-    background-color:#0CC0DF;
+    background-color:var(    --color-text-titulo);
     height: 370px;
     font-size: 13px;
     width: 300px;
@@ -442,7 +459,8 @@ animation-iteration-count: infinite;
 
 
 }
-.card-senha:hover{
+.card-senha:hover
+{
     background-color: rgb(63, 63, 70);
     color: var(--color-text-titulo);
     font-size: 18px;
@@ -453,7 +471,8 @@ animation-iteration-count: infinite;
     
 
 }
-.card-senha p {
+.card-senha p 
+{
   padding: 20px;
   font-family: 'Inter';
   font-weight: 300;
@@ -463,7 +482,7 @@ animation-iteration-count: infinite;
 .card-facilit
 
 {
-    background-color:#0CC0DF;
+    background-color:var(--color-text-titulo);
     height: 370px;
     font-size: 13px;
     width: 300px;
@@ -473,7 +492,8 @@ animation-iteration-count: infinite;
 
 
 }
-.card-facilit:hover{
+.card-facilit:hover
+{
     background-color: rgb(63, 63, 70);
     color: var(--color-text-titulo);
     font-size: 18px;
@@ -484,7 +504,8 @@ animation-iteration-count: infinite;
     
 
 }
-.card-facilit p {
+.card-facilit p 
+{
   padding: 20px;
   font-family: 'Inter';
   font-weight: 300;
@@ -493,7 +514,8 @@ animation-iteration-count: infinite;
  
 
 
-.cards-projeto {
+.cards-projeto 
+{
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
     gap: 50px;
@@ -513,14 +535,28 @@ animation-iteration-count: infinite;
      padding: 8px 50px ;
      border-radius: 15px;
   }
+
+
+  .link-falar
+  {
+    display: flex;
+    text-decoration: none;
+    color: white;
+    background-color: #061826; 
+    height: 50px 50px;
+    width: 50px;
+    padding: 8px 50px ;
+    border-radius: 15px;
+  }
   #certificado img
  {
     height: 200px;
     width: 200px;
  }
+ 
  #card-git
  {
-    background-color:#0CC0DF;
+    background-color:var(--color-text-titulo);
     height: 360px;
     width: 250px;
     padding: 20px 35px;
@@ -540,7 +576,7 @@ animation-iteration-count: infinite;
  }
  #card-equipes
  {
-    background-color:#0CC0DF;
+    background-color:var(    --color-text-titulo);
     height: 360px;
     width: 250px;
     padding: 20px 35px;
@@ -561,7 +597,7 @@ animation-iteration-count: infinite;
 
  #card-linux
  {
-    background-color:#0CC0DF;
+    background-color:var(    --color-text-titulo);
     height: 360px;
     width: 250px;
     padding: 20px 35px;
@@ -581,7 +617,7 @@ animation-iteration-count: infinite;
    
     #card-pensamento
     {
-        background-color:#0CC0DF;
+        background-color:var(    --color-text-titulo);
         height: 360px;
         width: 250px;
         padding: 20px 35px;
@@ -599,6 +635,13 @@ animation-iteration-count: infinite;
     }
 
  .cards-certificado
+ {
+    display: flex;
+    
+    justify-content: space-around;
+
+ }
+ .cards-contato
  {
     display: flex;
     
@@ -634,12 +677,15 @@ animation-iteration-count: infinite;
   width: 90%
 }
  #card-sql,#card-html,
- #card-css,#card-js
- ,#card-nodejs,#card-csharp,
- #card-react,#card-native, #card-api
+ #card-css, #card-js
+ ,#card-nodejs,#card-csharp
+ ,#card-react, #card-native,
+  #card-api, #card-bootstrap,
+  #card-nextjs,#card-gith
+
  {   
      
-    background-color:#fa042da1;
+    background-color:#fa042db7;
     height: 100px;
     width: 250px;
     padding: 20px 35px;
@@ -647,21 +693,36 @@ animation-iteration-count: infinite;
     text-align: center;
  
  } 
- #habilidade p{
+ #habilidade p
+ {
+
+
     color:  var(--color-text-titulo);
     padding-top: 15px;
     text-align: center;
 }
 
 
- #habilidade .conterner{
-    height: 665px;
+ #habilidade .conterner
+ {
+    height: auto
  }
 
  #habilidade i{
     font-size: 2.5rem;
   }
 
+  #falar i
+  {
+    font-size: 2.5rem;
+  }
+  #falar p
+  {
+    color:  var(--color-text-titulo);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+}
  .btns-certificado:hover
  {
     background-color: #c4cbcf;
@@ -693,14 +754,29 @@ animation-iteration-count: infinite;
     border:#144e7a solid;
     text-decoration: none;
     background-color: #0f3238;
+
    
  
 }
+.falar{
+
+    background-color:#262536;
+    height: 100px;
+    width: 250px;
+    padding: 20px 30px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
 .redes .contato:hover
 
 { 
     color: #ffff;
-    background-color: #0CC0DF;
+    background-color: var(    --color-text-titulo);
 }
 #topo
  {
@@ -717,7 +793,7 @@ animation-iteration-count: infinite;
     width: 116px;
     cursor: pointer;
     border-radius: 20px;
-    background-color: #0CC0DF;
+    background-color: var(    --color-text-titulo);
     color: #ffffffc9;
     transition: all;
     transition-duration: 0.9;
@@ -725,7 +801,7 @@ animation-iteration-count: infinite;
 
 footer{
     width: 100%;
-    color:#0CC0DF;
+    color:var(    --color-text-titulo);
     
  }
  #footer-contener
@@ -764,7 +840,7 @@ footer{
 
  }
   #footer-redes .footer-link:hover{
-    background-color: #0CC0DF;
+    background-color: var(    --color-text-titulo);
  }
  #footer-redes .footer-link i{
     font-size: 1.5rem;
@@ -788,7 +864,7 @@ footer{
  {
     transition: all;
     transition-duration: 1.5s;
-    color: #0CC0DF
+    color: var(    --color-text-titulo)
  }
  #footer-copy
  {
@@ -958,7 +1034,7 @@ footer{
     #certificado .assinatura{
         display: none;
     }
-    
+    #falar .assinatura {display: none;}
     #btn-cv 
     {
         position: relative;
@@ -974,6 +1050,17 @@ footer{
     {
         flex-direction: column;
         align-items: center;
+    }
+    .cards-contato{
+        flex-direction: column;
+        align-items: center;
+    }
+    .falar
+    {
+         
+        width: 80%;
+        margin-bottom: 30px;
+      
     }
     
     #projeto .conterner{

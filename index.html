@@ -6,7 +6,8 @@
     <title>DEV Felipe 2024</title>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-  
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     
 </head>
 <body>
@@ -15,13 +16,14 @@
             <div class="logo">
                 <h1>Dev Felipe</h1>
             </div>
-            <div class="nav-lista">
+            <div class="nav-lista" data-aos="zoom-in-right" data-aos-delay="100">
                 <ul>
                     <li class="nav-item"><a href="#home1" class="nav-link">Home</a></li>
                     <li class="nav-item"><a href="#sobre-mim" class="nav-link">Sobre mim</a></li>
                     <li class="nav-item"><a href="#projeto" class="nav-link">Projetos</a></li>
                     <li class="nav-item"><a href="#habilidade" class="nav-link">Habilidades</a></li>
                     <li class="nav-item"><a href="#certificado" class="nav-link">Certificados</a></li>
+                    <li class="nav-item"><a href="#falar" class="nav-link">Contatos</a></li>
                 </ul>
 
             </div>
@@ -36,17 +38,18 @@
                 <li class="nav-item"><a href="#projeto" class="nav-link">Projetos</a></li>
                 <li class="nav-item"><a href="#habilidade" class="nav-link">Habilidades</a></li>
                 <li class="nav-item"><a href="#certificado" class="nav-link">Certificados</a></li>
+                <li class="nav-item"><a href="#falar" class="nav-link">Contatos</a></li>
             </ul>
 
         </div>
       
     </header>
     <main>
-        <section id="home1">
+        <section id="home1"data-aos= "fade-donw">
             <picture>
                 <img src="./Imagens/foto_perfil_home1.jpeg" alt="imagem do Desenvolvedor">
             </picture>
-            <div class="texto-1">
+            <div class="texto-1"data-aos= "fade-donw" data-aos-delay="100">
                 <h2 class="texto-capa">SOU</h2>
                 <P id="nome">Felipe</P>
                 <h2 class="texto-capa">Desenvolvedor</h2>
@@ -59,14 +62,14 @@
                     <i class="fa-brands fa-github"> </i>
                    </a>
 
-                   <a href="https://www.linkedin.com/in/felipesansi" target="_blank"  class="contato" class="link" rel="noopener noreferrer">
+                   <a href="https://www.linkedin.com/in/felipesansi" target="_blank"  class="contato" class="link" rel="noopener no  referrer">
                     <i class="fa-brands fa-linkedin"></i>
                    </a>
                 </nav>
             </div>
         </section>
 
-        <section id="sobre-mim">
+        <section id="sobre-mim" >
         <h2 class="Titulo-sessao">Sobre Mim</h2>
          <div class="conterner">
      
@@ -102,7 +105,7 @@
             <h2 class="Titulo-sessao">Projetos</h2>
            <div class="conterner">
                
-                <div class="cards-projeto">
+                <div class="cards-projeto" data-aos-delay="400" data-aos="zoom-in">
                   <div class="card-jogo">
                     <picture>
                         <img src="./Imagens/cobra.png" alt="imagem ilútrativa de uma cobra">
@@ -161,11 +164,12 @@
               
           
         </section>
-         <section id="habilidade">
+        
+        <section id="habilidade">
          <h2 class="Titulo-sessao">Habilidades</h2>
          <div class="conterner">
 
-            <div class="cards-habilidades">
+            <div class="cards-habilidades"  data-aos-delay="100" data-aos="zoom-in" >
                 
                 <div id="card-html">
                     <i class="fa-brands fa-html5" style="color: orangered;"></i>
@@ -219,6 +223,20 @@
                     <p>Rest API</p>
                     </div>
                 
+                    <div id="card-bootstrap">
+                        <i class="fa-brands fa-bootstrap" style="color: blueviolet;"></i>
+                        <p>Bootstrap</p>
+                        </div>
+                        
+                        <div id="card-nextjs">
+                            <i class="fa-solid fa-n"></i>
+                            <p>Next js</p>
+                        </div>
+
+                        <div id="card-gith">
+                            <i class="fa-brands fa-git" style="color: orangered;"></i>
+                            <p>git e github</p>
+                        </div>
             </div>
                          
                          <h2 class="assinatura">Felipe F.</h2>
@@ -234,7 +252,7 @@
 
          <section id="certificado">
             <h2 class="Titulo-sessao">Certificados</h2>
-            <div class="conterner">
+            <div class="conterner"data-aos-delay="100">
    
                <div class="cards-certificado">
                    <div id="card-git">
@@ -284,6 +302,44 @@
               
                
             </section>
+
+            <section id="falar">
+                <h2 class="Titulo-sessao">Contatos</h2>
+                <div class="conterner">
+       
+                   <div class="cards-contato" data-aos-delay="300" data-aos = "zoom-in">
+                    <div class="falar">
+                        <i class="fa-brands fa-github"></i>
+                    <p>Github</p>
+                    
+                    <a  class="link-falar"href="" target="_blank" rel="noopener noreferrer">Ver</a>
+                    </div>
+                   
+                    <div class="falar">
+                        <i class="fa-brands fa-linkedin-in" style="color: #38b1c7;"></i>
+                         <p>linkedin</p>
+                   <a  class="link-falar"href="https://www.linkedin.com/in/felipesansi" target="_blank" rel="noopener noreferrer">Ver</a>
+                </div>
+                   
+                <div class="falar">
+                    <i class="fa-brands fa-square-whatsapp" style="color: green;"></i>
+                    <p>Whatsapp</p>
+                   
+                    <a class="link-falar" href="https://api.whatsapp.com/send?phone=5511997494922&text=Oi" target="_blank" 
+                    rel="noopener noreferrer">Contatar</a>
+                </div>
+                  
+            </div>
+                                
+                                <h2 class="assinatura">Felipe F.</h2>
+                   </div>
+       
+       
+               
+               
+                </section>
+                
+              
          <a id="topo"href="#home1"><button id="btn-topo">Topo</button></a>
     </main>
  <footer>
@@ -302,7 +358,7 @@
                 </a>
             </div>
         </div>
-        <ul class="footer-lista">
+        <ul class="footer-lista" data-aos-delay="600" data-aos="zoom-in">
             <li>
                 <h3>Projetos</h3>
             </li>
