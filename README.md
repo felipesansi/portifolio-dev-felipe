@@ -32,19 +32,6 @@ Este é o portfólio profissional de Felipe F. dos S. Silva, desenvolvido para e
 - **Certificados**: Certificados obtidos e links para visualização.
 - **Contatos**: Informações de contato e links para redes sociais.
 
-## Instruções para Execução
-
-1. **Clone o repositório:**
-    ```bash
-    git clone https://github.com/felipesansi/portifolio-dev-felipe.git
-    ```
-
-2. **Acesse o diretório do projeto:**
-    ```bash
-    cd portifolio-dev-felipe
-    ```
-
-3. **Abra o arquivo `index.html` em um navegador para visualizar o portfólio.**
 
 ## Links Importantes
 
