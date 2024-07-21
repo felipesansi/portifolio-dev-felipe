@@ -1,4 +1,4 @@
-# Portfólio - Felipe F. dos S. Silva
+# Portfólio - Felipe F.
 
 [![Ilustração do Portfólio](https://i.ibb.co/VYnDVLs/IMG-20240721-WA0000.jpg)](https://drive.google.com/file/d/1LCsnIY1oVFDVobex7I2fRLXmdqr-eFeZ/view?usp=drivesdk)
 
@@ -42,7 +42,7 @@ Este projeto está licenciado sob a [Licença MIT](LICENSE).
 
 ## Contato
 
-Felipe F. dos S. Silva  
+Felipe F.
 
 [LinkedIn](https://www.linkedin.com/in/felipesansi)  
 [GitHub](https://github.com/felipesansi)
