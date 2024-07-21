@@ -1,7 +1,6 @@
-
 # Portfólio - Felipe F. dos S. Silva
 
-[![Ilustração do Portfólio](https://img.youtube.com/vi/1LCsnIY1oVFDVobex7I2fRLXmdqr-eFeZ/0.jpg)](https://drive.google.com/file/d/1LCsnIY1oVFDVobex7I2fRLXmdqr-eFeZ/view?usp=drivesdk)
+[![Ilustração do Portfólio](https://i.ibb.co/VYnDVLs/IMG-20240721-WA0000.jpg)](https://drive.google.com/file/d/1LCsnIY1oVFDVobex7I2fRLXmdqr-eFeZ/view?usp=drivesdk)
 
 ## Descrição
 
@@ -31,7 +30,6 @@ Este é o portfólio profissional de Felipe F. dos S. Silva, desenvolvido para e
 - **Habilidades**: Lista de habilidades técnicas com ícones representativos.
 - **Certificados**: Certificados obtidos e links para visualização.
 - **Contatos**: Informações de contato e links para redes sociais.
-
 
 ## Links Importantes
 
