@@ -685,7 +685,7 @@ animation-iteration-count: infinite;
 
  {   
 
-    background-color:#0f3238;
+    background-color:var(--color-text-titulo);
     height: 100px;
     width: 250px;
     padding: 20px 35px;
@@ -697,7 +697,7 @@ animation-iteration-count: infinite;
  {
 
 
-    color:  var(--color-text-titulo);
+    color:  var(--color-text-normal);
     padding-top: 15px;
     text-align: center;
 }
